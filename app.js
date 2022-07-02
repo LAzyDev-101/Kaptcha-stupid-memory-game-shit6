@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   ]
 
-
+  const parentUri = "https://dev.tanakorn.space/page/"
   const grid = document.querySelector('.grid')
   const resultDisplay = document.querySelector('#result')
   let cardsChosen = []
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.length === cardArray.length / 2) {
-      window.parent.postMessage("stupid_memory", 'http://localhost:8080');
+      window.parent.postMessage("stupid_memory", parentUri);
       resultDisplay.textContent = 'Congratulations! You found them all!'
     }
   }
