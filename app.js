@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsChosenId = []
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.length === cardArray.length / 2) {
-      //TODO: post request on finish
+      window.parent.postMessage("stupid_memory", 'http://localhost:8080');
       resultDisplay.textContent = 'Congratulations! You found them all!'
     }
   }
