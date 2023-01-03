@@ -1,38 +1,43 @@
-# Memory Game
-A retro grid-based game in vanilla JavaScript, HTML and CSS
+#  The Stupid Hackathon Thailand 2022 #SHIT6
 
-View the full walkthrough [here](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw) 
+## About this event 
+![image](https://user-images.githubusercontent.com/30498964/210324880-8c204a1d-86c8-4a67-b204-575a6c220d17.png)
+![image](https://user-images.githubusercontent.com/30498964/210324937-5a205003-2a4d-4a12-b1ef-f26ba7e91acb.png)
 
-Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time. There are so many versions of it it is hard to in down it's exact origin. There are claims that the famuos writer of Huckleberry Finn, Mark Twain invented his own version. I googled it and whatever it is, it looks more like a way of trying to figure out how much tax you owe rather than match cards.
 
-In this repo, I will be putting extra focus on setting Attributes in JavaScript. If you want to learn how to use setAttritube and getAttribute effectively, please have a look at my code.
+* https://stupidhackth.github.io/6/
+<hr>
 
-I have kept the styling at a bare miniumum for you to go wild and make it your own. Please tag me as I would LOVE to see your game!!!
+## About this project 
 
-## What inbuilt functions are we going to focus on?
-- for loops
-- addEventListener
-- setAttribute
-- getAttribute
-- data-name
-- document.querySelector
-- createElement
+> You will facing three from six challenging game for ours captcha
 
-## Rules of Memory Game
-- You will start by flipping over one card
-- If the next card you flip matches, a pop up alert notifies you and you get +1 to your score
-- These cards then disspear
-- If the next card you flip does not match, a pop up alert notifies you of ths and the cards flip back
-- The game continues until you match all the cards on the board
 
-### MIT Licence
+![image](https://user-images.githubusercontent.com/30498964/210324953-57707ca3-f4d4-4597-8e48-0bf5b6a4743b.png)
 
-Copyright (c) 2020 Ania Kubow
+### **Game Details**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* Stupid Memory
 
-*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
+```json
+        "rule": "Remember all of the tiles",
+        "winCondition": "Click correct answer"
+```
+![image](https://user-images.githubusercontent.com/30498964/210326252-82c271da-bf41-49d7-9100-74a3505525d0.png)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+**[Preview](https://youtu.be/-8mBm18a_Mo)**
+
+
+<hr>
+
+## Our team members
+
+* [@new4761](https://github.com/new4761) 
+* [@markkj](https://github.com/markkj) 
+* [@Endifly](https://github.com/Endifly)
+* [@noppon11](https://github.com/noppon11)
+* [@pisichi](https://github.com/pisichi)
+* [@Pithakthakul](https://github.com/Pithakthakul)
